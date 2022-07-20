@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <div id="grad1">
+
+    <h1>Result Calculator</h1>
+
+  <form onsubmit="calculate(); return false;">
+    
+    <h3> 
+        <span class="hsp1">Subject</span> 
+        <span class="hsp2">Total Marks</span>
+        <span class="hsp3">Obtained Marks</span> 
+    </h3>
+
+    <label for="sub1"> Subject 1 </label> 
+    <input type="number" min="1" max="100" id="tmark1" placeholder="Enter total marks" class="tmarks">
+    <input type="number" min="1" max="100" id="obmark1" placeholder="Enter obtained marks" class="obmarks">
+    <br>
+
+    <label for="sub2"> Subject 2 </label>
+    <input type="number" min="1" max="100" id="tmark2" placeholder="Enter total marks" class="tmarks"> 
+    <input type="number" min="1" max="100" id="obmark2" placeholder="Enter obtained marks" class="obmarks">
+    <br>
+
+    <label for="sub3"> Subject 3 </label>
+    <input type="number" min="1" max="100" id="tmark3" placeholder="Enter total marks" class="tmarks">
+    <input type="number" min="1" max="100" id="obmark3" placeholder="Enter obtained marks" class="obmarks">
+    <br>
+
+    <label for="sub4"> Subject 4 </label>
+    <input type="number" min="1" max="100" id="tmark4" placeholder="Enter total marks" class="tmarks">
+    <input type="number" min="1" max="100" id="obmark4" placeholder="Enter obtained marks" class="obmarks">
+    <br>
+
+    <label for="sub5"> Subject 5 </label>
+    <input type="number" min="1" max="100" id="tmark5" placeholder="Enter total marks" class="tmarks">
+    <input type="number" min="1" max="100" id="obmark5" placeholder="Enter obtained marks" class="obmarks">
+    <br>
+
+    <label for="sub6"> Subject 6 </label>
+    <input type="number" min="1" max="100" id="tmark6" placeholder="Enter total marks" class="tmarks">
+    <input type="number" min="1" max="100" id="obmark6" placeholder="Enter obtained marks" class="obmarks">
+    <br>
+
+    <label for="sub7"> Subject 7 </label> 
+    <input type="number" min="1" max="100" id="tmark7" placeholder="Enter total marks" class="tmarks">
+    <input type="number" min="1" max="100" id="obmark7" placeholder="Enter obtained marks" class="obmarks">
+    <br>
+
+    <label for="sub8"> Subject 8 </label>
+    <input type="number" min="1" max="100" id="tmark8" placeholder="Enter total marks" class="tmarks">
+    <input type="number" min="1" max="100" id="obmark8" placeholder="Enter obtained marks" class="obmarks">
+    <br>
+
+    <label for="sub9"> Subject 9 </label>
+    <input type="number" min="1" max="100" id="tmark9" placeholder="Enter total marks" class="tmarks">
+    <input type="number" min="1" max="100" id="obmark9" placeholder="Enter obtained marks" class="obmarks">
+    <br>
+
+    <label for="sub10"> Subject 10 </label>  
+    <input type="number" min="1" max="100" id="tmark10" placeholder="Enter total marks" class="tmarks">
+    <input type="number" min="1" max="100" id="obmark10" placeholder="Enter obtained marks" class="obmarks">
+    <br>
+    
+    <br>
+    <button type="submit"> Calculate </button>
+
+  </form>
+
+  <div class="resultt">
+
+    <h3 id="MarksObtained"></h3>
+    
+    <h3 id="Grade"></h3>
+   
+    <h3 id="Percentage"></h3>
+  </div>
+
+  </div>
+  <script src="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+h1{
+  color: darkblue;
+  text-shadow: 2px 2px whitesmoke;
+}
+
+#grad1 {
+  height: 80vw;
+  background-image: linear-gradient(to bottom right, rgb(152, 224, 232), rgb(155, 82, 224));
+}
+
+body{
+  background-color: rgb(152, 224, 232);
+  font-size: 30px;
+  margin-left: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 10px;
+}
+
+.tmarks{
+  font-size: 27px;
+  margin: 5px;
+  margin-left: 20px;
+}
+
+.obmarks{
+  font-size: 27px;
+  margin-left: 90px;
+}
+
+button{
+  font-size: 22px;
+  padding: 10px;  
+  background-color: rgb(208, 103, 244);
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: rgb(189, 82, 224);
+}
+
+button:active{
+  background-color: rgba(104, 52, 121, 0.49);
+}
+
+form>label{
+  margin: 5px; 
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 20px;
+  display: inline;
+}
+
+form{
+  background-color:	rgb(189, 82, 224);
+  max-width: max-content;
+  padding: 15px;
+  border: 3px solid white;
+  border-radius: 15px;
+  /* margin-left: 300px; */
+}
+
+.resultt{
+  background-color:rgb(189, 82, 224); 
+  /* max-width: max-content; */
+  color: white;
+  padding: 5px;
+  border: 2px solid white; 
+  border-radius: 10px;
+  font-family: monospace;
+  margin: 10px 500px 5px 5px; 
+
+}
+
+h1{
+  text-align: center;
+}
+
+.hsp1{
+ color: 	rgb(189, 82, 224);
+ margin-left: 10px;
+ background-color: aliceblue;
+ padding: 10px;
+ border-radius: 10px;
+}
+
+.hsp2{
+  color: 	rgb(189, 82, 224);
+  margin-left: 15px;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.hsp3{
+  color: 	rgb(189, 82, 224);
+  margin-left: 10px;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+p>b{
+  margin-left: 50px;
+  margin-right: 70px;
+}
+
+.tmarks{
+ display: inline;
+} 
+
+/* for L size Mobile Screen */
+@media screen and (max-width: 425px) { 
+  body{
+    font-size: 18px;
+    background-color: rgb(111, 197, 228);
+    /* background-color: #025091; */
+  }
+  
+  form{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: max-content; 
+    margin: 10px 5px 10px 5px;
+    padding: 2px;
+    padding: 10px;
+  }
+  .tmarks{
+    font-size: 17px;
+    display: inline;
+    margin: 0px;
+  }
+  .obmarks{
+    display: inline;
+    font-size: 17px; 
+    margin: 0px;
+  }
+  label{
+   display: inline; 
+  }
+  .resultt{
+    margin: 5px;
+    margin-right: 5px;
+  }
+  #grad1{
+    height: 0vw;
+  }
+}
+ @media screen and (max-width: 768px) {
+  #grad1{
+    height: 0vw;
+  }
+ }
+
+
+
