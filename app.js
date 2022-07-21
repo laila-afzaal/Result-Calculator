@@ -85,3 +85,10 @@ function calculate() {
     .innerHTML = "You are FAIL!"; 
   }
 }
+var el = document.getElementById("myInputID");
+el.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        // Enter key was hit
+    }
+});
+
